@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import GlobalStyles from './assets/styles/Globalstyles'
+import LandingPage from './pages/Landing'
 
 
 
@@ -7,7 +8,7 @@ const App: React.FC = () => {
   return (
     <Fragment>
       <GlobalStyles />
-      <h1>Hello World</h1>
+      <LandingPage />
     </Fragment>
   )
 }
